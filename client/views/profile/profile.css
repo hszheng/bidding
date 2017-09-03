@@ -1,0 +1,267 @@
+#profilePage {
+    width: 100%;
+    height:100%;
+    background-color: #FFF;
+}
+
+.checkprofile-container
+{
+    display: none;
+}
+
+.displayBlock{
+    display: block !important;
+}
+.displayNone{
+    display: none !important;
+}
+.beforedelprofile-container,
+.checkprofile-container,
+.bind-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /*min-height: 1000px;*/
+}
+
+.beforedelprofile-content,
+.checkprofile-content,
+.bind-content {
+    width: 94%;
+    height:100%;
+    min-height: 1017px;
+    position: relative;
+    margin: 0 auto;
+    color: #9e9e9e;
+    font-size: 28px;
+}
+
+.captcha,
+.profile-cell-title,
+.profile-name-title {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    font-size: 27px;
+}
+
+.profile-name-title {
+    top: 55px;
+}
+
+.profile-cell-title {
+    top: 240px;
+}
+
+.captcha {
+    top: 425px;
+}
+
+.profile-captcha,
+.profile-cell,
+.profile-name {
+    width: 100%;
+    position: absolute;
+    height: 65px;
+    line-height: 65px;
+    outline: 0;
+    font-size: 26px;
+    padding-left: 14px;
+    letter-spacing: 2px;
+    border: 0;
+    border-bottom: 1px solid #9e9e9e;
+    background-color: transparent;
+}
+
+.profile-name {
+    top: 124px;
+    color: #9e9e9e;
+}
+
+.profile-cell {
+    top: 308px;
+    color: #9e9e9e;
+}
+
+.profile-captcha {
+    width: 69%;
+    top: 491px;
+    display: inline-block;
+
+}
+
+.change-captcha-bg {
+    background-color: #bdbdbd !important;
+}
+
+.get-captcha {
+    width: 28%;
+    height: 60px;
+    line-height: 56px;
+    position: absolute;
+    top: 504px;
+    right: -1px;
+    text-align: center;
+    background-color: #45C018;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.profile-footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    line-height: 100px;
+    border: 1px solid #999999;
+    /*margin-top: 100px;*/
+}
+
+.profile-back {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid black;
+    text-align: center;
+    font-size: 31px;
+    background-repeat: no-repeat;
+    /*background:#ededed;;*/
+}
+
+.profile-complete {
+    display: inline-block;
+    width: 48%;
+    height: 100%;
+    text-align: center;
+    font-size: 31px;
+    /*background:#ededed;;*/
+}
+
+.profile-tip {
+    width: 440px;
+    height: 45px;
+    position: absolute;
+    bottom: 138px;
+    color: white;
+    font-size: 21px;
+    background-color: #333333;
+    left: 50%;
+    margin-left: -220px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 3px;
+    display: none;
+}
+
+.attend-group {
+    top: 609px;
+}
+
+.attend-group-amount {
+    top: 675px;
+}
+
+.monthly-pay {
+    top: 793px;
+}
+
+.monthly-pay-money {
+    top: 860px;
+}
+
+.checkprofile-back {
+    width: 100%;
+    text-align: left;
+    padding-left: 60px;
+    background-image: url(/images/profile/arrow-left.png);
+    background-repeat: no-repeat;
+    background-size: 46px;
+    background-position: 10px 35px;
+    border-right: 0;
+    font-size: 33px;
+}
+
+.delete-profle {
+    color: red;
+}
+
+.delprofile-tip {
+    height: 192px;
+    width: 331px;
+    background: #F4F4F4;
+    position: absolute;
+    top: -356px;
+    right: 20px;
+    border-radius: 14px;
+}
+
+.del-profile {
+    height: 73px;
+    width: 331px;
+    line-height: 73px;
+    font-size: 29px;
+    text-align: center;
+    border-bottom: 1px solid #adadad;
+    color: #adadad;
+}
+
+.del-btn {
+    height: 121px;
+    line-height: 121px;
+    font-size: 34px;
+    text-align: center;
+    color: red;
+}
+
+.rotate-icon {
+    width: 30px;
+    height: 30px;
+    background: #F4F4F4;
+    transform: rotateZ(45deg);
+    -webkit-transform: rotateZ(45deg);
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    margin-left: -15px;
+}
+
+.beforedelprofile-container .title1,
+.checkprofile-container .title1 {
+    top: 424px;
+}
+
+.beforedelprofile-container .item1,
+.checkprofile-container .item1 {
+    top: 491px;
+    margin-left: -33px;
+}
+
+.beforedelprofile-container .title2,
+.checkprofile-container .title2 {
+    top: 609px;
+}
+
+.beforedelprofile-container .item2,
+.checkprofile-container .item2 {
+    top: 675px;
+    margin-left: -236px;
+}
+
+.del-tiper {
+    height: 168px !important;
+    width: 281px !important;
+    top: -306px !important;
+    right: 23px !important;
+}
+
+.del-item {
+    width: 281px !important;
+}
+/*检测输入*/
+.changeOutline{
+    border: 1px solid red !important;
+}

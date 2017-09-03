@@ -1,0 +1,344 @@
+.group-container2,
+.group-container3,
+.group-container4,
+.group-container5,
+.group-container6 {
+    display: none;
+}
+
+.group-container7,
+.group-container6,
+.group-container5,
+.group-container4,
+.group-container3,
+.group-container2,
+.group-container1 {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #ededed;
+}
+
+#group-fee {
+    width: 74%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background: transparent;
+    font-size: 35px;
+    padding-left: 33px;
+    color: #bdbdbd;
+    border: 0;
+    outline: 0;
+    line-height: 100%;
+}
+
+.question {
+    width: 106px;
+    height: 133px;
+    position: absolute;
+    right: 0;
+}
+
+.group-content7,
+.group-conent6,
+.group-conent5,
+.group-conent4,
+.group-conent1,
+.group-conent2,
+.group-conent3 {
+    width: 100%;
+    position: absolute;
+    top: 34px;
+}
+
+.group-conent2 {
+    height: 500px;
+}
+
+.group-conent3 {
+    color: #9e9e9e;
+}
+
+.group-conent5,
+.group-conent4,
+.group-conent1 {
+    height: 133px;
+    background-color: white;
+}
+
+.group-conent6 {
+    height: 390px;
+    background-color: white;
+}
+
+.group-content7 {
+    top: 0 !important;
+}
+
+.fee-label {
+    font-size: 35px;
+    line-height: 133px;
+    margin-left: 40px;
+}
+
+.fee-tip {
+    position: absolute;
+    bottom: 135px;
+    left: 50%;
+    height: 49px;
+    width: 222px;
+    background: #909090;
+    line-height: 49px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-left: -111px;
+    display: none;
+}
+
+.question-tip {
+    position: absolute;
+    width: 447px;
+    height: 115px;
+    top: 190px;
+    left: 96px;
+    line-height: 32px;
+    background-color: #909090;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 4px;
+    display: none;
+}
+
+.tipDisplay {
+    display: block;
+}
+
+.turn-length {
+    font-size: 32px;
+    position: absolute;
+    top: 14px;
+    left: 40px;
+}
+
+.group-container2 .que1 {
+    top: -51px;
+    right: -8px;
+}
+
+.length-item {
+    width: 172px;
+    height: 141px;
+    background-color: white;
+    position: absolute;
+    border: 1px solid #45c018;
+    border-radius: 5px;
+    font-size: 34px;
+    line-height: 141px;
+    text-align: center;
+    color: #45c018;
+}
+
+.changeItemBg {
+    background-color: #45c018;
+    color: white;
+}
+
+.item3,
+.item2,
+.item1 {
+    top: 78px;
+}
+
+.week3,
+.week2,
+.week1 {
+    top: 254px;
+}
+
+.week1,
+.item1 {
+    left: 36px;
+}
+
+.week2,
+.item2 {
+    left: 237px;
+}
+
+.week3,
+.item3 {
+    left: 436px;
+}
+
+.group-back {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid black;
+    text-align: center;
+    font-size: 31px;
+}
+
+.dateplugin-container {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -310px;
+}
+
+.group-container5 .name-tip {
+    display: none;
+}
+
+.group-container5 .name-tip2 {
+    width: 268px !important;
+    margin-left: -134px !important;
+    display: none;
+}
+
+.group-container4 .group-num,
+.group-container5 .group-name {
+    padding-left: 100px !important;
+}
+
+.container {
+    height: 80px;
+    width: 100%;
+    font-size: 34px;
+    line-height: 80px;
+    padding-left: 21px;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.item-title {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.item-name {
+    display: inline-block;
+    float: right;
+    margin-right: 32px;
+    color: #9e9e9e;
+}
+
+.groupContainer {
+    border-bottom: 0 !important;
+}
+
+.content-wrapper {
+    width: 94%;
+    height: 390px;
+    position: absolute;
+    left: 50%;
+    margin-left: -46.5%;
+    background-color: white;
+}
+
+.changeBgClor {
+    background-color: #bdbdbd
+}
+
+.group-in {
+    margin-top: 21px !important;
+    /*background-color: transparent !important;*/
+}
+
+.appendContent .groupInfo .groupFee {
+    width: 210px;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid #bdbdbd;
+    text-align: center;
+}
+
+.appendContent {
+    background-color: white !important;
+    margin-bottom: 20px !important;
+}
+
+.title-container {
+    width: 100%;
+    height: 65px;
+    background-color: white;
+}
+
+.group-draft {
+    display: inline-block;
+    width: 32.84%;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 23px;
+    border-right: 1px solid #afafaf;
+}
+
+.btn-container {
+    height: 84px;
+}
+
+.start-btn {
+    background-color: #45c018;
+    color: white;
+}
+
+.toInvite {
+    color: #45c018;
+}
+
+.start-btn,
+.invite-btn {
+    width: 42%;
+    display: inline-block;
+    height: 57px;
+    line-height: 57px;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 34px;
+    border-radius: 5px;
+    border: 1px solid #45c018;
+}
+
+.group-container7 .memberInfo {
+    width: 100%;
+    height: 85px;
+    line-height: 3.3;
+    border-bottom: 1px solid #bdbdbd;
+    border-top: 0 !important;
+}
+
+.activetoInvite {
+    color: #bdbdbd;
+}
+
+.activestart-btn {
+    background-color: #bdbdbd;
+}
+
+.inviteFriend {
+    color: #45c018;
+}
+
+.separate,
+.invite-btn .total-amount,
+.attendent {
+    color: #bdbdbd;
+}
+
+.group-footer {
+    height: 100px !important;
+    line-height: 100px !important;
+}
+
+.hideBg {
+    background-image: url('') !important;
+}
+
+.groupInfo {
+    margin-top: 30px;
+}

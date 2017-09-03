@@ -1,0 +1,20 @@
+body {
+    background-color: #ededed;
+}
+
+.bg {
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #000;
+    z-index: 2;
+    display: none;
+}
+
+.bg .show {
+    width: 80%;
+    height: 600px;
+    /* border: 1px solid red; */
+    margin: 200px auto;
+}

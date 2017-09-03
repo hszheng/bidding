@@ -1,0 +1,149 @@
+.searchGroup {
+    height: 55px;
+    width: 600px;
+    margin: 70px 20px 20px;
+    border-radius: 5px;
+}
+
+.searchGroup input {
+    width: 500px;
+    height: 55px;
+    float: left;
+    border: 0px;
+    outline: 0px;
+    font-size: 27px;
+    border-radius: 5px 0px 0px 5px;
+    text-indent: 10px;
+}
+
+.searchTipMark {
+    background-color: #bab5b5;
+    position: absolute;
+    width: 100px;
+    height: 55px;
+    right: 19px;
+    opacity: 0.5;
+    display: none;
+}
+
+.searchGroup .searchImg {
+    float: right;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.searchGroup .searchImg img {
+    height: 55px;
+}
+
+.searchTip {
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+.searchingGroupInfo {
+    width: 100%;
+    /*height:515px;*/
+    margin-top: 25px;
+    background-color: white;
+}
+
+.searchingGroupInfo .groupInfo {
+    width: 100%;
+    height: 85px;
+    font-size: 27px;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.searchingGroupInfo .groupInfo div {
+    width: 180px;
+    height: 40px;
+    float: left;
+    margin-top: 22px;
+    line-height: 1.3;
+}
+
+.searchingGroupInfo .groupInfo .groupFee {
+    width: 210px;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid #bdbdbd;
+    text-align: center;
+}
+
+.searchingGroupInfo .groupInfo .groupName span {
+    font-size: 15px;
+    border: 1px solid #45c018;
+    color: #45c018;
+    margin-right: 35px;
+    display: block;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    float: right;
+    border-radius: 7px;
+    margin-top: 7px;
+    line-height: 23px;
+}
+
+.searchingGroupInfo .groupInfo .groupName {
+    margin-left: 35px;
+}
+
+.searchingGroupInfo .groupInfo .groupDate {
+    text-align: right;
+}
+
+.searchingGroupInfo .groupWhiteBg {
+    width: 570px;
+    /*height: 340px;*/
+    margin: 0px 35px 0px 35px;
+    font-size: 24px;
+    color: #9e9e9e;
+}
+
+.searchingGroupInfo .groupWhiteBg .memberInfo {
+    width: 100%;
+    height: 85px;
+    line-height: 3.3;
+    border-top: 1px solid #bdbdbd;
+}
+
+.searchingGroupInfo .groupWhiteBg .groupHeader {
+    border: 0px;
+}
+
+.searchingGroupInfo .groupWhiteBg .memberInfo div {
+    float: left;
+}
+
+.searchingGroupInfo .groupWhiteBg .memberInfo div img {
+    float: right;
+    margin-top: 7px;
+    width: 55px;
+    height: 74px;
+}
+
+.searchingGroupInfo .groupWhiteBg .memberInfo span {
+    float: right;
+}
+
+.searchingGroupInfo .joinIn {
+    width: 100%;
+    height: 85px;
+    border-top: 1px solid #bdbdbd;
+}
+
+.searchingGroupInfo .joinIn div {
+    height: 60px;
+    width: 570px;
+    background-color: #45c018;
+    text-align: center;
+    line-height: 2;
+    font-size: 27px;
+    color: white;
+    margin: 13px 35px 0px 35px;
+}

@@ -1,0 +1,58 @@
+<template name="waitConfirm">
+	{{#with currentGroup2}}
+	<div class="pay-container2">
+        <div class="pay-content2">
+            <!-- <div class="content-wrapper"> -->
+            <div class="container1 nameContainer ">
+                <div class="item-title">群组名称</div>
+                <div class="item-name1 groupname">{{groupName}}</div>
+            </div>
+            <div class="container1 feeContainer">
+                <div class="item-title">每期团费</div>
+                <div class="item-name1 groufee">{{groupFee}}</div>
+            </div>
+            <div class="container1 periodContainer">
+                <div class="item-title">期数</div>
+                <div class="item-name1 groupperiod">第<span>{{currentTurn}}</span>/<span>{{number}}</span>期</div>
+            </div>
+            <div class="container1 turnContainer">
+                <div class="item-title">收款人</div>
+                <div class="item-name1 groupturn">{{nowReceivePerson}}</div>
+            </div>
+            <div class="container1 groupContainer">
+                <div class="item-title">金额</div>
+                <div class="item-name1 groupnum">{{payFee}}</div>
+            </div>
+        </div>
+        <!--遮罩层-->
+        <div class="bg">
+            <div class="show">
+                
+            </div>
+        </div>
+        <!-- 上传支付凭证后操作 付款人状态 -->
+        <div class="payer-status">
+            <div class="status-item">
+                <div class="status-item-title">付款人</div>
+                <div class="status-item-detail">{{payPerson}}</div>
+            </div>
+            <div class="status-item">
+                <div class="status-item-title">状态</div>
+                <div class="status-item-detail payStatus">{{userStatus}}</div>
+            </div>
+            <div class="status-item" style="border-bottom: 0;">
+                <div class="status-item-title" style="margin-top: 36px;">支付凭证</div>
+                <div class="status-item-detail" style="margin-top: 31px;">
+                    <img src="{{receiptPicture}}" id="bigPicture">
+                </div>
+            </div>
+        </div>
+        <!-- 页脚 -->
+        <div>
+            <div class="profile-footer back-footer">
+                <div class="checkprofile-back backtoupload">返回</div>
+            </div>
+        </div>
+    </div>
+    {{/with}}
+</template>

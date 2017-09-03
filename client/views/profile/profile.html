@@ -1,0 +1,56 @@
+<template name="profile">
+    <div id="profilePage">
+    <!-- 绑定个人资料 -->
+    <div class="bind-container" style="overflow:scroll;">
+        <div class="bind-content">
+            {{#if isBinded}} {{#each userinfoArr}}
+            <div class="profile-name-title">姓名</div>
+            <input type="text" placeholder="输入您的真实姓名，四个汉字以内" required class="profile-name" id="profileName" value="{{userName}}">
+            <div class="profile-cell-title">手机号</div>
+            <input type="text" placeholder="输入您的手机号" required class="profile-cell" id="profileCell" value="{{phoneNum}}">
+            <div class="after-create-group">
+                <div class="profile-name-title attend-group">参加群组数</div>
+                <input type="text" class="profile-name attend-group-amount" id="attendAmount" value="{{count}}" readonly="">
+                <div class="profile-cell-title monthly-pay">平均每月付款</div>
+                <input type="text" class="profile-cell monthly-pay-money" id="monthlyPaid" value="{{monthlypay}}" readonly="">
+            </div>
+            {{/each}} {{else}}
+            <div class="profile-name-title">姓名</div>
+            <input type="text" placeholder="输入您的真实姓名，四个汉字以内" required class="profile-name" id="profileName">
+            <div class="profile-cell-title">手机号</div>
+            <input type="text" placeholder="输入您的手机号" required class="profile-cell" id="profileCell">
+            {{/if}}
+            <div class="captcha">验证码</div>
+            <input type="text" placeholder="输入验证码" class="profile-captcha" id="profileCaptcha">
+            <div class="get-captcha">获取</div>
+        </div>
+        <!-- 页脚 -->
+        <div style="position:relative;">
+            <div class="profile-footer">
+                <div class="profile-back">返回</div>
+                <div class="profile-complete">完成</div>
+            </div>
+            <div class="profile-tip">恭喜你，个人资料已经成功修改</div>
+        </div>
+    </div>
+    <!-- 查看个人资料 -->
+    <div class="checkprofile-container" style="position:relative;">
+        <div class="checkprofile-content">
+            <div class="profile-name-title">姓名</div>
+            <input type="text" class="profile-name" value="刘芳">
+            <div class="profile-cell-title">手机号</div>
+            <input type="text" class="profile-cell" value="13790446788">
+            <div class="profile-name-title attend-group title1">参加群组数</div>
+            <input type="text" class="profile-name attend-group-amount item1" value="3">
+            <div class="profile-cell-title monthly-pay title2">平均每月付款</div>
+            <input type="text" class="profile-cell monthly-pay-money item2" value="3500">
+        </div>
+        <!-- 页脚 -->
+        <div>
+            <div class="profile-footer checkprofile-footer">
+                <div class="profile-back checkprofile-back">返回</div>
+            </div>
+        </div>
+    </div>
+    </div>
+</template>

@@ -1,0 +1,35 @@
+.myReceipt{
+	width:100%;
+	height:100%;
+	background-color: #ededed;
+}
+.myReceipt .myReceiptList{
+	width:100%;
+	background-color: #fff;
+	margin-top:30px;
+
+}
+.myReceipt .myReceiptItem{
+	width: 95%;
+    font-size: 27px;
+    padding: 20px 0px 20px 0px;
+    height: auto;
+    color: #333333;
+    margin: 0 auto;
+    line-height: 40px;
+    border-bottom: 1px solid #bdbdbd;
+    overflow: hidden;
+
+}
+
+.myReceipt .myReceiptItem .borrowTime{
+	width: 40%;
+    display: block;
+    height: 100%;
+    float: left;
+}
+
+.myReceipt .myReceiptItem .money{
+	float: right;
+    width: 60%;
+}

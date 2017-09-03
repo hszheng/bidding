@@ -1,0 +1,368 @@
+.pay-container1 {
+    /*display: none;*/
+    /*background-image: url("./images/pay/pay1.png");*/
+}
+
+.pay-container2 {
+    /*background-image: url("./images/pay/pay2.png");*/
+    /* display: none;*/
+}
+
+.pay-container3 {
+    /*display: none;*/
+    /*background-image: url("./images/pay/pay3-1.png");*/
+}
+
+.pay-container3,
+.pay-container2,
+.pay-container1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 1200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #ededed;
+}
+
+.pay-content3,
+.pay-content1,
+.pay-content2 {
+    padding-left: 27px !important;
+    padding-right: 16px !important;
+}
+
+.pay-content3,
+.pay-content2,
+.pay-content1 {
+    width: 100%;
+    height: 481px;
+    position: absolute;
+    top: 27px;
+    background-color: white;
+}
+
+.container1 {
+    width: 100%;
+    height: 96px;
+    padding-left: 12px;
+    line-height: 96px;
+    font-size: 27px;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.item-name1 {
+    display: inline-block;
+    float: right;
+    margin-right: 19px;
+    color: #9e9e9e;
+}
+
+.pay-footer {
+    height: 100px !important;
+    background-color: white !important;
+    line-height: 100px !important;
+}
+
+.proof-container {
+    height: 512px;
+    width: 100%;
+    position: absolute;
+    top: 509px;
+    margin-top: 23px;
+    padding-top: 37px;
+    background-color: white;
+}
+
+.image-container {
+    width: 250px;
+    height: 274px;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #bdbdbd;
+    margin: 0 auto;
+}
+
+.upload-btn {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 22px;
+    font-size: 27px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.image-content {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -75px;
+    margin-top: -75px;
+    text-align: center;
+}
+
+.image-content img {
+    width: 130px;
+    height: 130px;
+    margin-top: 10px;
+}
+
+.check-proof {
+    height: 35px;
+    width: 285px;
+    margin: 0 auto;
+    font-size: 25px;
+    margin-top: 19px;
+}
+
+.check-protocal img,
+.check-proof img {
+    width: 25px;
+    height: 27px;
+}
+
+.check-protocal {
+    width: 285px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 7px;
+    font-size: 25px;
+}
+
+.check-proof span,
+.check-protocal a,
+.check-protocal span {
+    display: inline-block;
+    vertical-align: 3px;
+}
+
+.check-protocal a {
+    text-decoration: none;
+}
+
+.pay-back {
+    background-position: 80px 29px !important;
+}
+
+.backtoupload {
+    padding-left: 59px !important;
+    background-position: 5px 30px !important;
+}
+
+.back-footer {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    height: 100px !important;
+    line-height: 100px !important;
+}
+
+.payer-status {
+    height: 378px;
+    width: 100%;
+    position: absolute;
+    top: 510px;
+    margin-top: 58px;
+    background-color: white;
+}
+
+.status-item {
+    height: 102px;
+    width: 89%;
+    margin: 0 auto;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.status-item-title {
+    display: inline-block;
+    height: 102px;
+    width: 150px;
+    text-align: left;
+    line-height: 102px;
+    font-size: 27px;
+    margin-left: -1px;
+}
+
+.status-item-detail {
+    display: inline-block;
+    height: 102px;
+    width: 150px;
+    text-align: right;
+    line-height: 102px;
+    font-size: 27px;
+    margin-left: -1px;
+    float: right;
+    color: #9e9e9e;
+}
+
+.payStatus {
+    color: red;
+}
+
+.alreadyPayStatus {
+    color: #45c018;
+}
+
+.backtogroup {
+    background-position: 86px 30px !important;
+    background-size: 42px !important;
+}
+
+.status-item-detail img {
+    width: 97px;
+    height: 110px;
+}
+
+.protocal-container {
+    top: 541px !important;
+    height: 433px;
+}
+
+.protocal-content {
+    width: 252px;
+    height: 298px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: 100% 100%;
+    background-image: url('/images/pay/cross.png');
+    border: 1px solid #bdbdbd;
+}
+
+.pay-container3 .check {
+    margin-top: 9px;
+    text-align: center;
+}
+
+.pay-container3 .btn-item {
+    display: inline-block;
+    width: 32.8%;
+    height: 100%;
+    text-align: center;
+    font-size: 31px;
+    border-right: 1px solid black;
+}
+
+.backtoconfirm {
+    background-repeat: no-repeat;
+    background-size: 46px;
+    background-position: 47px 27px;
+    padding-left: 38px;
+}
+
+.confirmpaid,
+.unconfirmpaid {
+    padding-left: 14px;
+}
+
+.unconfirmpaid {
+    color: red;
+}
+
+.confirmpaid {
+    border-right: 0 !important;
+    color: #8ad378;
+}
+
+.tiper {
+    position: absolute;
+    right: 20px;
+    border-radius: 14px;
+    bottom: 133px;
+    width: 281px;
+    background-color: white;
+    height: 175px;
+}
+
+.tiper .tip-title {
+    width: 100% !important;
+}
+
+.confirm-tip-btn {
+    font-size: 27px !important;
+    color: #45c018 !important;
+}
+
+.confirm-rotate-icon {
+    left: 70% !important;
+    bottom: -12px !important;
+    background-color: white !important;
+}
+
+.unconfirm-tip .move {
+    margin-left: -73px;
+}
+
+.unconfirm-tip {
+    right: 50% !important;
+    margin-right: -140px !important;
+    display: none;
+}
+
+.unconfirm-tip-btn {
+    color: red !important;
+}
+
+.confirm-tip {
+    display: none;
+}
+
+
+/*文件上传*/
+
+#insertImageCon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+#insertImageCon>form,
+#insertImageCon>form>.uploadPanel,
+#insertImageCon>form>.uploadPanel>.leftButton,
+#insertImageCon>form>.uploadPanel>.leftButton>.jqUploadclass {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*点击确认*/
+
+.confirmcheck {
+    background-image: url(/images/pay/checked.png) !important;
+}
+
+.confirmPay {
+    width: 27px;
+    height: 27px;
+    background-size: 100% 100%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(/images/pay/check.png);
+}
+
+.confirmProtocal {
+    width: 27px;
+    height: 27px;
+    background-size: 100% 100%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(/images/pay/check.png);
+}
+
+#loading {
+    position: absolute;
+    top: 10px;
+    right: 6px;
+    display: none;
+}

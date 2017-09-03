@@ -1,0 +1,6 @@
+#demo_cont_date {
+	transform: scale(2.5);
+	-webkit-transform: scale(2.5);
+	transform-origin: left top;
+	-webkit-transform-origin: left top;
+}

@@ -1,0 +1,95 @@
+/*.bidding-container1 {
+    display: none;
+    background-image: url(/images/bidding/bidding.png);
+}*//*
+*/
+.bidding-container2 {
+    /*background-image: url(/images/bidding/biddingin.png);*/
+}
+
+.bidding-container2,
+.bidding-container1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #ededed;
+}
+
+.bidding-content2,
+.bidding-content1 {
+    height: 142px !important;
+}
+
+.bidding-footer {
+    height: 100px !important;
+    line-height: 100px !important;
+}
+
+.bidding-back {
+    background-position: 90px 29px !important;
+}
+
+.bidding-container2 .bid-desc,
+.bidding-container2 .bid-turn {
+    position: absolute;
+    height: 100%;
+    display: inline-block;
+    line-height: 89px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.bidding-container2 .bid-turn {
+    width: 327px;
+    text-align: right;
+}
+
+.bidding-container2 .bid-desc {
+    width: 300px;
+    right: 0;
+    text-align: left;
+}
+
+.bidding-info {
+    border-top: 0 !important;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.group-in .groupWhiteBg .BidClickable .status{
+    color:#7A7ADA;;
+}
+.group-in .groupWhiteBg .PayClick .status{
+    color:#7A7ADA;;
+}
+.group-in .groupWhiteBg .WaitConfirmClick .status{
+    color:#7A7ADA;;
+}
+.group-in .groupWhiteBg .PayConfirmClick .status{
+    color:#7A7ADA;;
+}
+.group-in .groupWhiteBg .PayDetailClick .status{
+    color:#7A7ADA;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

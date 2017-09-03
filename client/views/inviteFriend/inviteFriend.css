@@ -1,0 +1,42 @@
+.inviteFriend{
+	width:100%;
+	height:100%;
+	background-color:#ededed;
+	overflow:hidden;
+
+}
+
+.inviteFriend .whiteBgOne{
+	margin-top: 25px;
+}
+
+.inviteFriendFooter{
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	height:85px;
+	background-color:white;
+	font-size: 27px;
+    line-height: 3;
+}
+
+.inviteFriendFooter img{
+	width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 26px;
+    margin-left: 20px;
+}
+
+.inviteFriend .shareTip{
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index:2;
+	top:0px;
+	background-color: rgba(0,0,0,.65);
+}
+
+.inviteFriend .shareTip img{
+	width:100%;
+}

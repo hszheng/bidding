@@ -1,0 +1,58 @@
+<template name="pay">
+    <!-- 支付页面1 -->
+    <div class="pay-container1">
+        <div class="pay-content1">
+            <!-- <div class="content-wrapper"> -->
+            {{#with currentGroupInfo}}
+            <div class="container1 nameContainer ">
+                <div class="item-title">群组名称</div>
+                <div class="item-name1 groupname">{{groupName}}</div>
+            </div>
+            <div class="container1 feeContainer">
+                <div class="item-title">每期团费</div>
+                <div class="item-name1 groufee">{{groupFee}}</div>
+            </div>
+            <div class="container1 periodContainer">
+                <div class="item-title">期数</div>
+                <div class="item-name1 groupperiod">第<span>{{currentTurn}}</span>/<span>{{number}}</span>期</div>
+            </div>
+            <div class="container1 turnContainer">
+                <div class="item-title">收款人</div>
+                <div class="item-name1 groupturn">{{nowReceivePerson}}</div>
+            </div>
+            <div class="container1 groupContainer">
+                <div class="item-title">金额</div>
+                <div class="item-name1 groupnum">{{payFee}}</div>
+            </div>
+            {{/with}}
+        </div>
+        <!-- 上传支付凭证 -->
+        <div class="proof-container">
+            <div class="image-container">
+                <div class="image-content">
+                    <img src="./images/pay/plus.png">
+                    <div id="insertImageCon">
+                        {{> upload_semanticUI }}
+                    </div>
+                    <img src="/loading.gif" id="loading">
+                </div>
+            </div>
+            <div class="upload-btn">上传支付凭证(仅限一次)</div>
+            <div class="check-protocal">
+                <div class="confirmProtocal"></div>
+                <!-- <img src="./images/pay/checked.png"> -->
+                <span>我同意</span>
+                <a href="/protocol" class="toprotocol">XXX协议</a>
+            </div>
+        </div>
+        <!-- 页脚 -->
+        <div class="profile-footer back-footer">
+            <div class="profile-back backtogroup">返回</div>
+            <div class="profile-complete">完成</div>
+        </div>
+    </div>
+    <!-- 支付页面2 -->
+    
+    <!-- 支付页面3 确认收到 -->
+    
+</template>

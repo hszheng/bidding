@@ -1,0 +1,29 @@
+<template name='delprofile'>
+    <!-- 删除组员 -->
+    <div class="beforedelprofile-container">
+        <div class="beforedelprofile-content">
+            {{#with displayUserInfo}}
+            <div class="profile-name-title">姓名</div>
+
+            <input type="text" class="profile-name" value="{{userName}}" style="color:#4D4A4A" disabled>
+            <div class="profile-cell-title">手机号</div>
+            <input type="text" class="profile-cell" value="{{phoneNum}}" disabled>
+            <div class="profile-name-title attend-group title1">参加群组数</div>
+            <input type="text" class="profile-name attend-group-amount item1" value="{{count}}" disabled>
+            <div class="profile-cell-title monthly-pay title2">平均每月付款</div>
+            <input type="text" class="profile-cell monthly-pay-money item2" value="{{monthlypay}}" disabled>
+            {{/with}}
+        </div>
+        <div style="position:relative;">
+            <div class="delprofile-tip del-tiper">
+                <div class="del-profile del-item">将该组员从群中删除</div>
+                <div class="del-btn">删除</div>
+                <div class="rotate-icon"></div>
+            </div>
+            <div class="profile-footer">
+                <div class="profile-back">返回</div>
+                <div class="profile-complete delete-profle">删除</div>
+            </div>
+        </div>
+    </div>
+</template>

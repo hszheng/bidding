@@ -1,0 +1,91 @@
+.myReceiptDetails{
+	width:100%;
+	height:100%;
+	background-color: #ededed;
+	overflow-x: hidden;
+}
+.myReceiptDetails .myReceiptList{
+	width:100%;
+	background-color: #fff;
+	/*margin-top:30px;*/
+
+}
+.myReceiptDetails .text{
+	margin-top:10px;
+	width:100%;
+	font-size:25px;
+	color:#9e9e9e;
+	margin-left:20px;
+	margin-bottom:10px;
+}
+.myReceiptDetails .myReceiptItem{
+	width: 95%;
+    font-size: 27px;
+    height: auto;
+    color: #333333;
+    margin: 0 auto;
+    line-height: 40px;
+    border-bottom: 1px solid #bdbdbd;
+    padding: 20px 0px 20px 0px;
+    overflow: hidden;
+}
+
+.myReceiptDetails .myReceiptItem .textTitle{
+	width: 30%;
+    display: block;
+    float: left;
+}
+
+.myReceiptDetails .myReceiptItem .right{
+	display: block;
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+
+.myReceiptDetails .myReceiptAddressItem{
+	width:95%;
+	font-size:27px;
+	color:#333333;
+	margin:0px auto;
+	padding: 20px 0px 20px 0px;
+	 overflow: hidden;
+	
+}
+.myReceiptDetails .myReceiptAddressItem span{
+	line-height:1.5;
+}
+.myReceiptDetails .myReceiptAddressItem .right{
+	display: block;
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+.myReceiptDetails .clauseContent{
+	margin-top:10px;
+	width:90%;
+	font-size:13px;
+	color:#9e9e9e;
+	margin:0 auto;
+	margin-bottom:10px;
+	line-height: 25px;
+}
+.myReceiptDetails .additionalContent{
+	margin-top:10px;
+	width:100%;
+	font-size:22px;
+	color:#333;
+	margin:0 auto;
+	margin-bottom:10px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	padding-top:20px;
+	background-color:#ffffff;
+}
+
+.myReceiptDetails .image img{
+	width:100%;
+	margin-bottom:20px;
+}
+

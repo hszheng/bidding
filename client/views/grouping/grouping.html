@@ -1,0 +1,134 @@
+<template name="grouping">
+    <!-- 页1 输入团费 -->
+    <div class="group-container1">
+        <div class="group-conent1">
+            <label for="group-fee" class="fee-label">会款</label>
+            <input type="text" id="group-fee" placeholder="请输入整数数字" pattern='/[^\d]/g'>
+            <img src="/images/group/question.png" class="question">
+        </div>
+        <!-- 提示 -->
+        <div class="fee-tip">请输入会费</div>
+        <div class="question-tip">
+            在团会中，你将与好友一起，每个月
+            <br> 或每周存入一定金额，这个金额由群众
+            <br> 的团员商议决定
+        </div>
+        <div>
+            <div class="profile-footer group-footer">
+                <div class="profile-back">返回</div>
+                <div class="profile-complete">下一步</div>
+            </div>
+        </div>
+    </div>
+    <!-- 页2 选择每期周长 -->
+    <div class="group-container2">
+        <div class="group-conent2">
+            <div class="turn-length">每期周长</div>
+         <!--   <img src="/images/group/question.png" class="question que1">-->
+            <div class="length-item item1">一个月</div>
+            <div class="length-item item2">两个月</div>
+            <div class="length-item item3">三个月</div>
+            <div class="length-item week1">一周</div>
+            <div class="length-item week2">两周</div>
+            <div class="length-item week3">三周</div>
+        </div>
+        <!-- 提示 -->
+        <div class="fee-tip">请选择团子群周长</div>
+        <div>
+            <div class="profile-footer group-footer">
+                <div class="index2 group-back">上一步</div>
+                <div class="profile-complete">下一步</div>
+            </div>
+        </div>
+    </div>
+    <!-- 页3 选择首期付款日 -->
+    <div class="group-container3">
+        <div class="group-conent3">
+            <div class="turn-length">首期付款日</div>
+            <div class="dateplugin-container">
+                {{>dateplugin}}
+            </div>
+        </div>
+        <!-- 提示 -->
+        <div class="fee-tip">首期付款日</div>
+        <div>
+            <div class="profile-footer group-footer">
+                <div class="index3 group-back">上一步</div>
+                <div class="profile-complete">下一步</div>
+            </div>
+        </div>
+    </div>
+    <!-- 页4 组员人数 -->
+    <div class="group-container4">
+        <div class="group-conent4">
+            <div class="group-num-container">
+                <label for="group-fee" class="fee-label">组员人数</label>
+                <input type="text" id="group-fee" class="group-num" placeholder="请输入整数数字" pattern='/[^\d]/g'>
+             <!--   <img src="/images/group/question.png" class="question">-->
+            </div>
+        </div>
+        <!-- 提示 -->
+        <div class="fee-tip num-tip">请输入组员人数</div>
+        <div class="fee-tip name-tip">请输入群组名称</div>
+        <div>
+            <div class="profile-footer group-footer">
+                <div class="index4 profile-back hideBg">上一步</div>
+                <div class="profile-complete">下一步</div>
+            </div>
+        </div>
+    </div>
+    <!-- 页5 组名称 -->
+    <div class="group-container5">
+        <div class="group-conent5">
+            <div class="gruop-name-container">
+                <label for="group-fee" class="fee-label">群组名称</label>
+                <input type="text" id="group-fee" class="group-name" placeholder="不超过三个汉字">
+               <!-- <img src="/images/group/question.png" class="question">-->
+            </div>
+        </div>
+        <!-- 提示 -->
+        <div class="fee-tip name-tip">请输入群组名称</div>
+        <div class="fee-tip name-tip2">群组名不超过三个汉字</div>
+        <div>
+            <div class="profile-footer group-footer">
+                <div class="index5 profile-back hideBg">上一步</div>
+                <div class="profile-complete">下一步</div>
+            </div>
+        </div>
+    </div>
+    <!-- 页6 预览群组 -->
+    <div class="group-container6">
+        <div class="group-conent6">
+            <div class="content-wrapper">
+                <div class="container nameContainer">
+                    <div class="item-title">群组名称</div>
+                    <div class="item-name groupname" contenteditable></div>
+                </div>
+                <div class="container feeContainer">
+                    <div class="item-title">每期团费</div>
+                    <div class="item-name groupfee" contenteditable></div>
+                </div>
+                <div class="container periodContainer">
+                    <div class="item-title">每期周长</div>
+                    <div class="item-name groupperiod" contenteditable></div>
+                </div>
+                <div class="container turnContainer">
+                    <div class="item-title">首期付款日</div>
+                    <div class="item-name groupturn" contenteditable></div>
+                </div>
+                <div class="container groupContainer">
+                    <div class="item-title">组员人数</div>
+                    <div class="item-name groupnum" contenteditable></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="profile-footer group-footer">
+                <div class="index6 profile-back hideBg">上一步</div>
+                <div class="profile-complete">创建</div>
+            </div>
+        </div>
+    </div>
+
+    
+</template>

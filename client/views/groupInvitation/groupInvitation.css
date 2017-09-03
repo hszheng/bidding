@@ -1,0 +1,98 @@
+.groupInvitation{
+	width:100%;
+	height:100%;
+	background-color:#ededed;
+	overflow:scroll;
+}
+
+.groupInvitation .whiteBg{
+	width:100%;
+	height:490px;
+	background-color:white;
+	margin-bottom:25px;
+}
+
+.addGroupStep{
+	margin: 25px 35px 0px 35px;
+}
+
+.addGroupStep span{
+	font-size:24px;
+	color:#bdbdbd;
+}
+
+.addGroupStep p{
+	font-size:24px;
+	color:#333333;
+}
+
+.addGroupStep img{
+	width:400px;
+	height:300px;
+	padding: 100px 100px 0px 100px;
+}
+
+.addGroupStep .empty{
+	width:100%;
+	height:30px;
+}
+
+.addGroupStep .imgContainer{
+	text-align:center;
+	margin-top: -100px;
+}
+
+.addGroupStep .inviteCode span{
+	font-size:27px;
+}
+
+.addGroupStep .inviteCode{
+	width:100%;
+	height:90px;
+	border-top: 1px solid #bdbdbd;
+	line-height: 2.5;
+}
+
+.addGroupStep .inviteCode .copyCode{
+	width:450px;
+	height:100%;
+	float:right;
+	text-align:right;
+	/*padding-top: 10px;*/
+}
+
+.addGroupStep .inviteCode .copyCode .green{
+	color:#45c018;
+}
+
+.whiteBgOne{
+	width:100%;
+	height:440px;
+	background-color:white;
+}
+
+.whiteBgOne .groupInfo{
+	margin-right: 25px;
+	margin-left:25px;
+}
+
+.whiteBgOne .groupInfo .group{
+	font-size:27px;
+	height:87px;
+	line-height:3;
+	border-top: 1px solid #bdbdbd;
+}
+
+.whiteBgOne .groupInfo .groupName{
+	border-top:0px;
+}
+
+.whiteBgOne .groupInfo .group div{
+	float:left;
+	color:#333333;
+}
+
+.whiteBgOne .groupInfo .group span{
+	color:#9e9e9e;
+	float:right;
+}

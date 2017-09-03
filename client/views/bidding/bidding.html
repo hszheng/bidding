@@ -1,0 +1,36 @@
+<template name="bidding">
+    <!-- 群组 投标中-->
+    <div class="bidding-container2">
+        <div class="group-content7 bidding-content2">
+            <div class="title-container">
+                <div class="group-draft">组名</div>
+                <div class="group-draft">会费</div>
+                <div class="group-draft">下期收款日</div>
+            </div>
+            {{#if isEmpty}}
+            <div style="font-size:28px;text-align:center;margin-top:30px;">您暂时没有开始的团会</div>
+            {{/if}} {{#each groups}}
+            <div class="searchingGroupInfo group-in">
+                <div class="groupInfo">
+                    <div class="groupName">{{groupName}}<span>{{period}}</span></div>
+                    <div class="groupFee">{{groupFee}}</div>
+                    <div class="groupDate">{{firstPayTime}}</div>
+                </div>
+                <div class="groupWhiteBg">
+                    {{#each userList}}
+                    <div class="memberInfo bidding-info {{#if isBidClick}}BidClickable{{/if}} {{#if isPayClick}}PayClick{{/if}} {{#if isWaitConfirmClick}}WaitConfirmClick{{/if}} {{#if isPayConfirmClick}}PayConfirmClick{{/if}} {{#if isPayDetailClick}}PayDetailClick{{/if}}" data-id="{{openId}}" data-groupid="{{groupId}}" data-nowReceive="{{receivePerson}}" data-fee="{{payFee}}" data-openid="{{openId}}">
+                        <div>{{name}}{{#if romeMaker}}<img src="./joinNewGroup/queen.png">{{/if}}{{#if danger}}<img src="./joinNewGroup/warning.png">{{/if}}</div>
+                        <span class="status">{{nowstatus}}</span>
+                    </div>
+                    {{/each}}
+                </div>
+                <div class="btn-container" style="color:#45c018;">
+                    <div class="bid-turn">第<span>{{currentTurn}}</span>/<span>{{number}}</span><span>轮</span></div>
+                    <div class="bid-desc">{{status}}</div>
+                </div>
+            </div>
+            {{/each}}
+            <div style="text-align:center;color:blue;font-size:26px;margin-top:100px;" id="complete">点击查看已完结的群</div>
+        </div>
+    </div>
+</template>
